@@ -1,0 +1,5 @@
+2020-09-23 10:28:50,375 [http-nio-8067-exec-5] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-23 10:28:50,398 [http-nio-8067-exec-5] INFO  c.m.d.b.c.manage.LoginController 87 - --------------- userLogin() 方法开始 ---------------
+2020-09-23 10:28:50,400 [http-nio-8067-exec-5] INFO  c.m.d.b.c.manage.LoginController 136 - 参数 param ：{"username":"admin","password":"123123123"}
+2020-09-23 10:28:50,570 [http-nio-8067-exec-5] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"username":"admin"},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiYWFhNWI3MDFlMmI1NDNlNzg0M2FmNDYyMjYzMzM2MjgifQ.Znc2-I5zomkofMYlOhuORxxbpvRrpKQg2IMAEobnVwM"}
+2020-09-23 10:28:50,571 [http-nio-8067-exec-5] INFO  c.m.d.b.c.manage.LoginController 105 - --------------- userLogin() 方法结束 ---------------

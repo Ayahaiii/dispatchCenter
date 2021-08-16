@@ -1,0 +1,461 @@
+2020-10-13 09:51:12,918 [main] INFO  c.m.d.DispatchcenterApplication 55 - Starting DispatchcenterApplication on bodideMacBook-Pro.local with PID 21982 (/Users/budi/Downloads/monetware/dispatchCenter-api/target/classes started by budi in /Users/budi/Downloads/monetware/dispatchCenter-api)
+2020-10-13 09:51:12,927 [main] INFO  c.m.d.DispatchcenterApplication 655 - The following profiles are active: dev
+2020-10-13 09:51:13,905 [main] WARN  t.m.s.mapper.ClassPathMapperScanner 142 - No MyBatis mapper was found in '[com.monetware.dispatchcenter.business.dao.*]' package. Please check your configuration.
+2020-10-13 09:51:14,061 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcAdminDao' and 'com.monetware.dispatchcenter.business.dao.DcAdminDao' mapperInterface. Bean already defined with the same name!
+2020-10-13 09:51:14,061 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcNodeDao' and 'com.monetware.dispatchcenter.business.dao.DcNodeDao' mapperInterface. Bean already defined with the same name!
+2020-10-13 09:51:14,061 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcServiceDao' and 'com.monetware.dispatchcenter.business.dao.DcServiceDao' mapperInterface. Bean already defined with the same name!
+2020-10-13 09:51:14,062 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcTaskDao' and 'com.monetware.dispatchcenter.business.dao.DcTaskDao' mapperInterface. Bean already defined with the same name!
+2020-10-13 09:51:14,062 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcTaskTypeDao' and 'com.monetware.dispatchcenter.business.dao.DcTaskTypeDao' mapperInterface. Bean already defined with the same name!
+2020-10-13 09:51:14,062 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 166 - No MyBatis mapper was found in '[com.monetware.dispatchcenter]' package. Please check your configuration.
+2020-10-13 09:51:14,113 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-13 09:51:14,116 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-13 09:51:14,179 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 31ms. Found 0 Redis repository interfaces.
+2020-10-13 09:51:14,459 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0' of type [org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-13 09:51:14,874 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8067 (http)
+2020-10-13 09:51:14,883 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8067"]
+2020-10-13 09:51:14,884 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-10-13 09:51:14,884 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-10-13 09:51:15,040 [main] INFO  o.a.c.c.C.[.[.[/cloudexperiment] 173 - Initializing Spring embedded WebApplicationContext
+2020-10-13 09:51:15,040 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 2044 ms
+2020-10-13 09:51:15,222 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure 56 - Init DruidDataSource
+2020-10-13 09:51:15,454 [main] INFO  c.alibaba.druid.pool.DruidDataSource 889 - {dataSource-1} inited
+2020-10-13 09:51:16,707 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-13 09:51:16,774 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 09:51:16,893 [main] INFO  t.m.m.a.MapperCacheDisabler 60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-10-13 09:51:16,894 [main] INFO  t.m.m.a.MapperCacheDisabler 60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-10-13 09:51:16,894 [main] INFO  t.m.m.a.MapperCacheDisabler 60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-10-13 09:51:16,894 [main] INFO  t.m.m.a.MapperCacheDisabler 83 - Clear EntityHelper entityTableMap cache.
+2020-10-13 09:51:17,157 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8067"]
+2020-10-13 09:51:17,186 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8067 (http) with context path '/cloudexperiment'
+2020-10-13 09:51:17,187 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper 151 - Context refreshed
+2020-10-13 09:51:17,206 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper 154 - Found 1 custom documentation plugin(s)
+2020-10-13 09:51:17,230 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner 41 - Scanning for api listing references
+2020-10-13 09:51:17,249 [main] INFO  c.m.d.DispatchcenterApplication 61 - Started DispatchcenterApplication in 4.798 seconds (JVM running for 5.581)
+2020-10-13 10:02:59,210 [http-nio-8067-exec-1] INFO  o.a.c.c.C.[.[.[/cloudexperiment] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-13 10:02:59,210 [http-nio-8067-exec-1] INFO  o.s.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2020-10-13 10:02:59,220 [http-nio-8067-exec-1] INFO  o.s.web.servlet.DispatcherServlet 547 - Completed initialization in 10 ms
+2020-10-13 10:02:59,249 [http-nio-8067-exec-1] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-13 10:02:59,331 [http-nio-8067-exec-1] INFO  c.m.d.b.c.manage.LoginController 87 - --------------- userLogin() 方法开始 ---------------
+2020-10-13 10:02:59,348 [http-nio-8067-exec-1] INFO  c.m.d.b.c.manage.LoginController 136 - 参数 param ：{"username":"admin","password":"123123123"}
+2020-10-13 10:03:00,417 [http-nio-8067-exec-1] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"username":"admin"},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiNGNlZWY4OGNlYmEyNGI3NDk2N2IwNWM5ZTVmNjBhYTMifQ.29FHgR4DpXlXzCh05GPUaWYT43InMR8cgx_ye1zsADU"}
+2020-10-13 10:03:00,418 [http-nio-8067-exec-1] INFO  c.m.d.b.c.manage.LoginController 105 - --------------- userLogin() 方法结束 ---------------
+2020-10-13 10:03:00,581 [http-nio-8067-exec-3] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-13 10:03:00,657 [http-nio-8067-exec-3] INFO  c.m.d.b.c.m.NodeManageController 87 - --------------- searchNodeByParam() 方法开始 ---------------
+2020-10-13 10:03:00,659 [http-nio-8067-exec-3] INFO  c.m.d.b.c.m.NodeManageController 136 - 参数 param ：{"pageNum":1,"pageSize":10,"status":null}
+2020-10-13 10:03:00,815 [http-nio-8067-exec-3] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"data":[{"id":1,"name":"节点名称测试数据1","ip":"127.0.0.1","port":"8080","description":"节点描述测试数据1","status":1,"dcServiceList":[{"id":1,"nodeId":1,"url":"url测试数据1","projectType":1,"heartBeatUrl":"心跳url测试数据1","status":1},{"id":3,"nodeId":1,"url":"url测试数据3","projectType":2,"heartBeatUrl":"心跳url测试数据3","status":3}]},{"id":2,"name":"节点名称测试数据2","ip":"198.122.2.1","port":"80","description":"节点描述测试数据2","status":1,"dcServiceList":[]},{"id":3,"name":"节点名称测试数据3","ip":"255.255.255.0","port":"8081","description":"节点描述测试数据3","status":1,"dcServiceList":[{"id":2,"nodeId":3,"url":"url测试数据2","projectType":1,"heartBeatUrl":"心跳url测试数据2","status":3}]},{"id":4,"name":"节点名称测试数据4","ip":"192.0.145.1","port":"8082","description":"节点描述测试数据4","status":2,"dcServiceList":[]},{"id":5,"name":"节点名称测试数据5","ip":"22.1.1.52","port":"8083","description":"节点描述测试数据5","status":2,"dcServiceList":[]},{"id":6,"name":"节点名称测试数据6","ip":"12.154.87.23","port":"8084","description":"节点描述测试数据6","status":3,"dcServiceList":[]},{"id":7,"name":"节点名称测试数据7","ip":"142.23.11.4","port":"8085","description":"节点描述测试数据7","status":3,"dcServiceList":[]}],"total":7,"pageNum":1,"pageSize":10,"totalPages":1},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiNGNlZWY4OGNlYmEyNGI3NDk2N2IwNWM5ZTVmNjBhYTMifQ.29FHgR4DpXlXzCh05GPUaWYT43InMR8cgx_ye1zsADU"}
+2020-10-13 10:03:00,815 [http-nio-8067-exec-3] INFO  c.m.d.b.c.m.NodeManageController 105 - --------------- searchNodeByParam() 方法结束 ---------------
+2020-10-13 10:03:09,419 [http-nio-8067-exec-2] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-13 10:03:09,430 [http-nio-8067-exec-2] INFO  c.m.d.b.c.m.NodeManageController 87 - --------------- searchNodeByParam() 方法开始 ---------------
+2020-10-13 10:03:09,431 [http-nio-8067-exec-2] INFO  c.m.d.b.c.m.NodeManageController 136 - 参数 param ：{"pageNum":1,"pageSize":10,"status":1}
+2020-10-13 10:03:09,460 [http-nio-8067-exec-2] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"data":[{"id":1,"name":"节点名称测试数据1","ip":"127.0.0.1","port":"8080","description":"节点描述测试数据1","status":1,"dcServiceList":[{"id":1,"nodeId":1,"url":"url测试数据1","projectType":1,"heartBeatUrl":"心跳url测试数据1","status":1},{"id":3,"nodeId":1,"url":"url测试数据3","projectType":2,"heartBeatUrl":"心跳url测试数据3","status":3}]},{"id":2,"name":"节点名称测试数据2","ip":"198.122.2.1","port":"80","description":"节点描述测试数据2","status":1,"dcServiceList":[]},{"id":3,"name":"节点名称测试数据3","ip":"255.255.255.0","port":"8081","description":"节点描述测试数据3","status":1,"dcServiceList":[{"id":2,"nodeId":3,"url":"url测试数据2","projectType":1,"heartBeatUrl":"心跳url测试数据2","status":3}]}],"total":3,"pageNum":1,"pageSize":10,"totalPages":1},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiNGNlZWY4OGNlYmEyNGI3NDk2N2IwNWM5ZTVmNjBhYTMifQ.29FHgR4DpXlXzCh05GPUaWYT43InMR8cgx_ye1zsADU"}
+2020-10-13 10:03:09,461 [http-nio-8067-exec-2] INFO  c.m.d.b.c.m.NodeManageController 105 - --------------- searchNodeByParam() 方法结束 ---------------
+2020-10-13 10:03:10,997 [http-nio-8067-exec-4] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-13 10:03:11,008 [http-nio-8067-exec-4] INFO  c.m.d.b.c.m.NodeManageController 87 - --------------- searchNodeByParam() 方法开始 ---------------
+2020-10-13 10:03:11,009 [http-nio-8067-exec-4] INFO  c.m.d.b.c.m.NodeManageController 136 - 参数 param ：{"pageNum":1,"pageSize":10,"status":2}
+2020-10-13 10:03:11,027 [http-nio-8067-exec-4] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"data":[{"id":4,"name":"节点名称测试数据4","ip":"192.0.145.1","port":"8082","description":"节点描述测试数据4","status":2,"dcServiceList":[]},{"id":5,"name":"节点名称测试数据5","ip":"22.1.1.52","port":"8083","description":"节点描述测试数据5","status":2,"dcServiceList":[]}],"total":2,"pageNum":1,"pageSize":10,"totalPages":1},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiNGNlZWY4OGNlYmEyNGI3NDk2N2IwNWM5ZTVmNjBhYTMifQ.29FHgR4DpXlXzCh05GPUaWYT43InMR8cgx_ye1zsADU"}
+2020-10-13 10:03:11,027 [http-nio-8067-exec-4] INFO  c.m.d.b.c.m.NodeManageController 105 - --------------- searchNodeByParam() 方法结束 ---------------
+2020-10-13 10:03:12,824 [http-nio-8067-exec-5] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-13 10:03:12,835 [http-nio-8067-exec-5] INFO  c.m.d.b.c.m.NodeManageController 87 - --------------- searchNodeByParam() 方法开始 ---------------
+2020-10-13 10:03:12,836 [http-nio-8067-exec-5] INFO  c.m.d.b.c.m.NodeManageController 136 - 参数 param ：{"pageNum":1,"pageSize":10,"status":3}
+2020-10-13 10:03:12,857 [http-nio-8067-exec-5] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"data":[{"id":6,"name":"节点名称测试数据6","ip":"12.154.87.23","port":"8084","description":"节点描述测试数据6","status":3,"dcServiceList":[]},{"id":7,"name":"节点名称测试数据7","ip":"142.23.11.4","port":"8085","description":"节点描述测试数据7","status":3,"dcServiceList":[]}],"total":2,"pageNum":1,"pageSize":10,"totalPages":1},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiNGNlZWY4OGNlYmEyNGI3NDk2N2IwNWM5ZTVmNjBhYTMifQ.29FHgR4DpXlXzCh05GPUaWYT43InMR8cgx_ye1zsADU"}
+2020-10-13 10:03:12,858 [http-nio-8067-exec-5] INFO  c.m.d.b.c.m.NodeManageController 105 - --------------- searchNodeByParam() 方法结束 ---------------
+2020-10-13 10:04:13,178 [http-nio-8067-exec-7] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-13 10:04:13,180 [http-nio-8067-exec-7] INFO  c.m.d.b.c.manage.LoginController 87 - --------------- userLogin() 方法开始 ---------------
+2020-10-13 10:04:13,180 [http-nio-8067-exec-7] INFO  c.m.d.b.c.manage.LoginController 136 - 参数 param ：{"username":"admin","password":"123123123"}
+2020-10-13 10:04:13,216 [http-nio-8067-exec-7] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"username":"admin"},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiZTU5M2EwNjgyOTIxNDVlYWJmYzI5ZTFjYjhiYjBlMmIifQ.hro6QQIdk74bgrTBHlzwQKo6BqfMx-7R53OwXHctqWY"}
+2020-10-13 10:04:13,216 [http-nio-8067-exec-7] INFO  c.m.d.b.c.manage.LoginController 105 - --------------- userLogin() 方法结束 ---------------
+2020-10-13 10:04:49,508 [http-nio-8067-exec-8] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-13 10:04:49,513 [http-nio-8067-exec-8] INFO  c.m.d.b.c.m.NodeManageController 87 - --------------- searchNodeByParam() 方法开始 ---------------
+2020-10-13 10:04:49,513 [http-nio-8067-exec-8] INFO  c.m.d.b.c.m.NodeManageController 136 - 参数 param ：{"pageNum":1,"pageSize":10,"status":null}
+2020-10-13 10:04:49,559 [http-nio-8067-exec-8] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"data":[{"id":1,"name":"节点名称测试数据1","ip":"127.0.0.1","port":"8080","description":"节点描述测试数据1","status":1,"dcServiceList":[{"id":1,"nodeId":1,"url":"url测试数据1","projectType":1,"heartBeatUrl":"心跳url测试数据1","status":1},{"id":3,"nodeId":1,"url":"url测试数据3","projectType":2,"heartBeatUrl":"心跳url测试数据3","status":3}]},{"id":2,"name":"节点名称测试数据2","ip":"198.122.2.1","port":"80","description":"节点描述测试数据2","status":1,"dcServiceList":[]},{"id":3,"name":"节点名称测试数据3","ip":"255.255.255.0","port":"8081","description":"节点描述测试数据3","status":1,"dcServiceList":[{"id":2,"nodeId":3,"url":"url测试数据2","projectType":1,"heartBeatUrl":"心跳url测试数据2","status":3}]},{"id":4,"name":"节点名称测试数据4","ip":"192.0.145.1","port":"8082","description":"节点描述测试数据4","status":2,"dcServiceList":[]},{"id":5,"name":"节点名称测试数据5","ip":"22.1.1.52","port":"8083","description":"节点描述测试数据5","status":2,"dcServiceList":[]},{"id":6,"name":"节点名称测试数据6","ip":"12.154.87.23","port":"8084","description":"节点描述测试数据6","status":3,"dcServiceList":[]},{"id":7,"name":"节点名称测试数据7","ip":"142.23.11.4","port":"8085","description":"节点描述测试数据7","status":3,"dcServiceList":[]}],"total":7,"pageNum":1,"pageSize":10,"totalPages":1},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiNGNlZWY4OGNlYmEyNGI3NDk2N2IwNWM5ZTVmNjBhYTMifQ.29FHgR4DpXlXzCh05GPUaWYT43InMR8cgx_ye1zsADU"}
+2020-10-13 10:04:49,559 [http-nio-8067-exec-8] INFO  c.m.d.b.c.m.NodeManageController 105 - --------------- searchNodeByParam() 方法结束 ---------------
+2020-10-13 10:09:37,130 [http-nio-8067-exec-1] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-13 10:09:37,213 [http-nio-8067-exec-1] INFO  c.m.d.b.c.m.TaskManageController 87 - --------------- searchTaskByParam() 方法开始 ---------------
+2020-10-13 10:09:37,215 [http-nio-8067-exec-1] INFO  c.m.d.b.c.m.TaskManageController 136 - 参数 param ：{"pageNum":1,"pageSize":10,"nodeId":1,"projectType":null,"taskType":null,"status":null}
+2020-10-13 10:09:37,239 [http-nio-8067-exec-1] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"data":[],"total":0,"pageNum":1,"pageSize":10,"totalPages":0},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiZTU5M2EwNjgyOTIxNDVlYWJmYzI5ZTFjYjhiYjBlMmIifQ.hro6QQIdk74bgrTBHlzwQKo6BqfMx-7R53OwXHctqWY"}
+2020-10-13 10:09:37,240 [http-nio-8067-exec-1] INFO  c.m.d.b.c.m.TaskManageController 105 - --------------- searchTaskByParam() 方法结束 ---------------
+2020-10-13 10:17:29,213 [http-nio-8067-exec-4] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-13 10:17:29,283 [http-nio-8067-exec-4] INFO  c.m.d.b.c.m.TaskManageController 87 - --------------- searchTaskByParam() 方法开始 ---------------
+2020-10-13 10:17:29,283 [http-nio-8067-exec-4] INFO  c.m.d.b.c.m.TaskManageController 136 - 参数 param ：{"pageNum":1,"pageSize":10,"nodeId":1,"projectType":null,"taskType":null,"status":null}
+2020-10-13 10:17:29,295 [http-nio-8067-exec-4] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"data":[],"total":0,"pageNum":1,"pageSize":10,"totalPages":0},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiZTU5M2EwNjgyOTIxNDVlYWJmYzI5ZTFjYjhiYjBlMmIifQ.hro6QQIdk74bgrTBHlzwQKo6BqfMx-7R53OwXHctqWY"}
+2020-10-13 10:17:29,296 [http-nio-8067-exec-4] INFO  c.m.d.b.c.m.TaskManageController 105 - --------------- searchTaskByParam() 方法结束 ---------------
+2020-10-13 10:17:43,816 [http-nio-8067-exec-5] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-13 10:17:43,822 [http-nio-8067-exec-5] INFO  c.m.d.b.c.m.TaskManageController 87 - --------------- searchTaskByParam() 方法开始 ---------------
+2020-10-13 10:17:43,823 [http-nio-8067-exec-5] INFO  c.m.d.b.c.m.TaskManageController 136 - 参数 param ：{"pageNum":1,"pageSize":10,"nodeId":1,"projectType":null,"taskType":null,"status":null}
+2020-10-13 10:17:43,832 [http-nio-8067-exec-5] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"data":[],"total":0,"pageNum":1,"pageSize":10,"totalPages":0},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiZTU5M2EwNjgyOTIxNDVlYWJmYzI5ZTFjYjhiYjBlMmIifQ.hro6QQIdk74bgrTBHlzwQKo6BqfMx-7R53OwXHctqWY"}
+2020-10-13 10:17:43,832 [http-nio-8067-exec-5] INFO  c.m.d.b.c.m.TaskManageController 105 - --------------- searchTaskByParam() 方法结束 ---------------
+2020-10-13 10:17:51,283 [http-nio-8067-exec-6] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-13 10:17:51,294 [http-nio-8067-exec-6] INFO  c.m.d.b.c.m.TaskManageController 87 - --------------- searchTaskByParam() 方法开始 ---------------
+2020-10-13 10:17:51,295 [http-nio-8067-exec-6] INFO  c.m.d.b.c.m.TaskManageController 136 - 参数 param ：{"pageNum":1,"pageSize":10,"nodeId":1,"projectType":null,"taskType":1,"status":null}
+2020-10-13 10:17:51,308 [http-nio-8067-exec-6] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"data":[],"total":0,"pageNum":1,"pageSize":10,"totalPages":0},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiZTU5M2EwNjgyOTIxNDVlYWJmYzI5ZTFjYjhiYjBlMmIifQ.hro6QQIdk74bgrTBHlzwQKo6BqfMx-7R53OwXHctqWY"}
+2020-10-13 10:17:51,308 [http-nio-8067-exec-6] INFO  c.m.d.b.c.m.TaskManageController 105 - --------------- searchTaskByParam() 方法结束 ---------------
+2020-10-13 10:17:53,703 [http-nio-8067-exec-7] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-13 10:17:53,715 [http-nio-8067-exec-7] INFO  c.m.d.b.c.m.TaskManageController 87 - --------------- searchTaskByParam() 方法开始 ---------------
+2020-10-13 10:17:53,715 [http-nio-8067-exec-7] INFO  c.m.d.b.c.m.TaskManageController 136 - 参数 param ：{"pageNum":1,"pageSize":10,"nodeId":null,"projectType":null,"taskType":1,"status":null}
+2020-10-13 10:17:53,720 [http-nio-8067-exec-7] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"data":[],"total":0,"pageNum":1,"pageSize":10,"totalPages":0},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiZTU5M2EwNjgyOTIxNDVlYWJmYzI5ZTFjYjhiYjBlMmIifQ.hro6QQIdk74bgrTBHlzwQKo6BqfMx-7R53OwXHctqWY"}
+2020-10-13 10:17:53,721 [http-nio-8067-exec-7] INFO  c.m.d.b.c.m.TaskManageController 105 - --------------- searchTaskByParam() 方法结束 ---------------
+2020-10-13 10:31:08,912 [http-nio-8067-exec-9] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-13 10:31:09,000 [http-nio-8067-exec-9] INFO  c.m.d.b.c.m.NodeManageController 87 - --------------- searchNodeByParam() 方法开始 ---------------
+2020-10-13 10:31:09,001 [http-nio-8067-exec-9] INFO  c.m.d.b.c.m.NodeManageController 136 - 参数 param ：{"pageNum":1,"pageSize":10,"status":null}
+2020-10-13 10:31:09,078 [http-nio-8067-exec-9] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"data":[{"id":1,"name":"节点名称测试数据1","ip":"127.0.0.1","port":"8080","description":"节点描述测试数据1","status":1,"dcServiceList":[{"id":1,"nodeId":1,"url":"url测试数据1","projectType":1,"heartBeatUrl":"心跳url测试数据1","status":1},{"id":3,"nodeId":1,"url":"url测试数据3","projectType":2,"heartBeatUrl":"心跳url测试数据3","status":3}]},{"id":2,"name":"节点名称测试数据2","ip":"198.122.2.1","port":"80","description":"节点描述测试数据2","status":1,"dcServiceList":[]},{"id":3,"name":"节点名称测试数据3","ip":"255.255.255.0","port":"8081","description":"节点描述测试数据3","status":1,"dcServiceList":[{"id":2,"nodeId":3,"url":"url测试数据2","projectType":1,"heartBeatUrl":"心跳url测试数据2","status":3}]},{"id":4,"name":"节点名称测试数据4","ip":"192.0.145.1","port":"8082","description":"节点描述测试数据4","status":2,"dcServiceList":[]},{"id":5,"name":"节点名称测试数据5","ip":"22.1.1.52","port":"8083","description":"节点描述测试数据5","status":2,"dcServiceList":[]},{"id":6,"name":"节点名称测试数据6","ip":"12.154.87.23","port":"8084","description":"节点描述测试数据6","status":3,"dcServiceList":[]},{"id":7,"name":"节点名称测试数据7","ip":"142.23.11.4","port":"8085","description":"节点描述测试数据7","status":3,"dcServiceList":[]}],"total":7,"pageNum":1,"pageSize":10,"totalPages":1},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiNGNlZWY4OGNlYmEyNGI3NDk2N2IwNWM5ZTVmNjBhYTMifQ.29FHgR4DpXlXzCh05GPUaWYT43InMR8cgx_ye1zsADU"}
+2020-10-13 10:31:09,078 [http-nio-8067-exec-9] INFO  c.m.d.b.c.m.NodeManageController 105 - --------------- searchNodeByParam() 方法结束 ---------------
+2020-10-13 10:36:12,537 [http-nio-8067-exec-10] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-13 10:36:12,614 [http-nio-8067-exec-10] INFO  c.m.d.b.c.m.TaskManageController 87 - --------------- searchTaskByParam() 方法开始 ---------------
+2020-10-13 10:36:12,614 [http-nio-8067-exec-10] INFO  c.m.d.b.c.m.TaskManageController 136 - 参数 param ：{"pageNum":1,"pageSize":10,"nodeId":null,"projectType":null,"taskType":null,"status":null}
+2020-10-13 10:36:12,640 [http-nio-8067-exec-10] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"data":[],"total":0,"pageNum":1,"pageSize":10,"totalPages":0},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiNGNlZWY4OGNlYmEyNGI3NDk2N2IwNWM5ZTVmNjBhYTMifQ.29FHgR4DpXlXzCh05GPUaWYT43InMR8cgx_ye1zsADU"}
+2020-10-13 10:36:12,640 [http-nio-8067-exec-10] INFO  c.m.d.b.c.m.TaskManageController 105 - --------------- searchTaskByParam() 方法结束 ---------------
+2020-10-13 10:37:15,136 [http-nio-8067-exec-1] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-13 10:37:15,181 [http-nio-8067-exec-1] INFO  c.m.d.b.c.m.TaskManageController 87 - --------------- searchTaskByParam() 方法开始 ---------------
+2020-10-13 10:37:15,181 [http-nio-8067-exec-1] INFO  c.m.d.b.c.m.TaskManageController 136 - 参数 param ：{"pageNum":1,"pageSize":10,"nodeId":null,"projectType":null,"taskType":null,"status":null}
+2020-10-13 10:37:15,188 [http-nio-8067-exec-1] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"data":[],"total":0,"pageNum":1,"pageSize":10,"totalPages":0},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiNGNlZWY4OGNlYmEyNGI3NDk2N2IwNWM5ZTVmNjBhYTMifQ.29FHgR4DpXlXzCh05GPUaWYT43InMR8cgx_ye1zsADU"}
+2020-10-13 10:37:15,188 [http-nio-8067-exec-1] INFO  c.m.d.b.c.m.TaskManageController 105 - --------------- searchTaskByParam() 方法结束 ---------------
+2020-10-13 10:37:33,680 [http-nio-8067-exec-3] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-13 10:37:33,691 [http-nio-8067-exec-3] INFO  c.m.d.b.c.m.TaskManageController 87 - --------------- searchTaskByParam() 方法开始 ---------------
+2020-10-13 10:37:33,692 [http-nio-8067-exec-3] INFO  c.m.d.b.c.m.TaskManageController 136 - 参数 param ：{"pageNum":1,"pageSize":10,"nodeId":null,"projectType":null,"taskType":null,"status":null}
+2020-10-13 10:37:33,699 [http-nio-8067-exec-3] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"data":[],"total":0,"pageNum":1,"pageSize":10,"totalPages":0},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiNGNlZWY4OGNlYmEyNGI3NDk2N2IwNWM5ZTVmNjBhYTMifQ.29FHgR4DpXlXzCh05GPUaWYT43InMR8cgx_ye1zsADU"}
+2020-10-13 10:37:33,700 [http-nio-8067-exec-3] INFO  c.m.d.b.c.m.TaskManageController 105 - --------------- searchTaskByParam() 方法结束 ---------------
+2020-10-13 10:42:03,708 [http-nio-8067-exec-4] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-13 10:42:03,720 [http-nio-8067-exec-4] INFO  c.m.d.b.c.m.TaskManageController 87 - --------------- searchTaskDetail() 方法开始 ---------------
+2020-10-13 10:42:03,721 [http-nio-8067-exec-4] INFO  c.m.d.b.c.m.TaskManageController 136 - 参数 param ：{"id":null}
+2020-10-13 10:42:03,739 [http-nio-8067-exec-4] INFO  c.m.d.b.c.m.TaskManageController 97 - --------------- searchTaskDetail() 方法执行异常 ---------------
+2020-10-13 10:42:03,744 [http-nio-8067-exec-4] ERROR c.m.d.s.e.GlobalExceptionHandler 31 - java.lang.IllegalArgumentException: Source must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:201)
+	at org.springframework.beans.BeanUtils.copyProperties(BeanUtils.java:698)
+	at org.springframework.beans.BeanUtils.copyProperties(BeanUtils.java:644)
+	at com.monetware.dispatchcenter.business.service.manage.TaskManageService.searchTaskDetail(TaskManageService.java:100)
+	at com.monetware.dispatchcenter.business.service.manage.TaskManageService$$FastClassBySpringCGLIB$$9781224d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.monetware.dispatchcenter.business.service.manage.TaskManageService$$EnhancerBySpringCGLIB$$a6e2e137.searchTaskDetail(<generated>)
+	at com.monetware.dispatchcenter.business.controller.manage.TaskManageController.searchTaskDetail(TaskManageController.java:42)
+	at com.monetware.dispatchcenter.business.controller.manage.TaskManageController$$FastClassBySpringCGLIB$$dba2f44f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.monetware.dispatchcenter.system.aop.LogAop.around(LogAop.java:95)
+	at sun.reflect.GeneratedMethodAccessor125.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.monetware.dispatchcenter.business.controller.manage.TaskManageController$$EnhancerBySpringCGLIB$$e54b1dd1.searchTaskDetail(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.monetware.dispatchcenter.system.config.CORSFilter.doFilter(CORSFilter.java:38)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-10-13 10:42:14,914 [http-nio-8067-exec-5] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-13 10:42:14,927 [http-nio-8067-exec-5] INFO  c.m.d.b.c.m.TaskManageController 87 - --------------- searchTaskDetail() 方法开始 ---------------
+2020-10-13 10:42:14,928 [http-nio-8067-exec-5] INFO  c.m.d.b.c.m.TaskManageController 136 - 参数 param ：{"id":1}
+2020-10-13 10:42:14,933 [http-nio-8067-exec-5] INFO  c.m.d.b.c.m.TaskManageController 97 - --------------- searchTaskDetail() 方法执行异常 ---------------
+2020-10-13 10:42:14,935 [http-nio-8067-exec-5] ERROR c.m.d.s.e.GlobalExceptionHandler 31 - java.lang.IllegalArgumentException: Source must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:201)
+	at org.springframework.beans.BeanUtils.copyProperties(BeanUtils.java:698)
+	at org.springframework.beans.BeanUtils.copyProperties(BeanUtils.java:644)
+	at com.monetware.dispatchcenter.business.service.manage.TaskManageService.searchTaskDetail(TaskManageService.java:100)
+	at com.monetware.dispatchcenter.business.service.manage.TaskManageService$$FastClassBySpringCGLIB$$9781224d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.monetware.dispatchcenter.business.service.manage.TaskManageService$$EnhancerBySpringCGLIB$$a6e2e137.searchTaskDetail(<generated>)
+	at com.monetware.dispatchcenter.business.controller.manage.TaskManageController.searchTaskDetail(TaskManageController.java:42)
+	at com.monetware.dispatchcenter.business.controller.manage.TaskManageController$$FastClassBySpringCGLIB$$dba2f44f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.monetware.dispatchcenter.system.aop.LogAop.around(LogAop.java:95)
+	at sun.reflect.GeneratedMethodAccessor125.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.monetware.dispatchcenter.business.controller.manage.TaskManageController$$EnhancerBySpringCGLIB$$e54b1dd1.searchTaskDetail(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.monetware.dispatchcenter.system.config.CORSFilter.doFilter(CORSFilter.java:38)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-10-13 10:42:34,249 [http-nio-8067-exec-6] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-13 10:42:34,253 [http-nio-8067-exec-6] INFO  c.m.d.b.c.m.TaskManageController 87 - --------------- searchTaskByParam() 方法开始 ---------------
+2020-10-13 10:42:34,254 [http-nio-8067-exec-6] INFO  c.m.d.b.c.m.TaskManageController 136 - 参数 param ：{"pageNum":1,"pageSize":10,"nodeId":null,"projectType":null,"taskType":1,"status":null}
+2020-10-13 10:42:34,275 [http-nio-8067-exec-6] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"data":[],"total":0,"pageNum":1,"pageSize":10,"totalPages":0},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiZTU5M2EwNjgyOTIxNDVlYWJmYzI5ZTFjYjhiYjBlMmIifQ.hro6QQIdk74bgrTBHlzwQKo6BqfMx-7R53OwXHctqWY"}
+2020-10-13 10:42:34,276 [http-nio-8067-exec-6] INFO  c.m.d.b.c.m.TaskManageController 105 - --------------- searchTaskByParam() 方法结束 ---------------
+2020-10-13 10:42:37,959 [http-nio-8067-exec-7] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-13 10:42:37,970 [http-nio-8067-exec-7] INFO  c.m.d.b.c.m.TaskManageController 87 - --------------- searchTaskDetail() 方法开始 ---------------
+2020-10-13 10:42:37,971 [http-nio-8067-exec-7] INFO  c.m.d.b.c.m.TaskManageController 136 - 参数 param ：{"id":1}
+2020-10-13 10:42:37,974 [http-nio-8067-exec-7] INFO  c.m.d.b.c.m.TaskManageController 97 - --------------- searchTaskDetail() 方法执行异常 ---------------
+2020-10-13 10:42:37,976 [http-nio-8067-exec-7] ERROR c.m.d.s.e.GlobalExceptionHandler 31 - java.lang.IllegalArgumentException: Source must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:201)
+	at org.springframework.beans.BeanUtils.copyProperties(BeanUtils.java:698)
+	at org.springframework.beans.BeanUtils.copyProperties(BeanUtils.java:644)
+	at com.monetware.dispatchcenter.business.service.manage.TaskManageService.searchTaskDetail(TaskManageService.java:100)
+	at com.monetware.dispatchcenter.business.service.manage.TaskManageService$$FastClassBySpringCGLIB$$9781224d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.monetware.dispatchcenter.business.service.manage.TaskManageService$$EnhancerBySpringCGLIB$$a6e2e137.searchTaskDetail(<generated>)
+	at com.monetware.dispatchcenter.business.controller.manage.TaskManageController.searchTaskDetail(TaskManageController.java:42)
+	at com.monetware.dispatchcenter.business.controller.manage.TaskManageController$$FastClassBySpringCGLIB$$dba2f44f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.monetware.dispatchcenter.system.aop.LogAop.around(LogAop.java:95)
+	at sun.reflect.GeneratedMethodAccessor125.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.monetware.dispatchcenter.business.controller.manage.TaskManageController$$EnhancerBySpringCGLIB$$e54b1dd1.searchTaskDetail(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.monetware.dispatchcenter.system.config.CORSFilter.doFilter(CORSFilter.java:38)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-10-13 13:39:26,819 [http-nio-8067-exec-9] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-13 13:39:26,937 [http-nio-8067-exec-9] ERROR c.m.d.s.e.GlobalExceptionHandler 24 - com.monetware.dispatchcenter.system.exception.ServiceException: 登陆超时,请重新登陆
+2020-10-13 13:39:38,808 [http-nio-8067-exec-10] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-13 13:39:38,812 [http-nio-8067-exec-10] INFO  c.m.d.b.c.manage.LoginController 87 - --------------- userLogin() 方法开始 ---------------
+2020-10-13 13:39:38,813 [http-nio-8067-exec-10] INFO  c.m.d.b.c.manage.LoginController 136 - 参数 param ：{"username":"admin","password":"123123123"}
+2020-10-13 13:39:38,899 [http-nio-8067-exec-10] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"username":"admin"},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiYzU5M2NkMDQ5YWE2NDlkOWE4MjI5NjEzNzRhYWI0MzAifQ.vufHQivjSVSpTcOTFUKPIhc8ylvPgmc7PJxEa0VlYSs"}
+2020-10-13 13:39:38,899 [http-nio-8067-exec-10] INFO  c.m.d.b.c.manage.LoginController 105 - --------------- userLogin() 方法结束 ---------------
+2020-10-13 13:39:38,996 [http-nio-8067-exec-1] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-13 13:39:39,002 [http-nio-8067-exec-1] INFO  c.m.d.b.c.m.NodeManageController 87 - --------------- searchNodeByParam() 方法开始 ---------------
+2020-10-13 13:39:39,004 [http-nio-8067-exec-1] INFO  c.m.d.b.c.m.NodeManageController 136 - 参数 param ：{"pageNum":1,"pageSize":10,"status":null}
+2020-10-13 13:39:39,103 [http-nio-8067-exec-1] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"data":[{"id":1,"name":"节点名称测试数据1","ip":"127.0.0.1","port":"8080","description":"节点描述测试数据1","status":1,"dcServiceList":[{"id":1,"nodeId":1,"url":"url测试数据1","projectType":1,"heartBeatUrl":"心跳url测试数据1","status":1},{"id":3,"nodeId":1,"url":"url测试数据3","projectType":2,"heartBeatUrl":"心跳url测试数据3","status":3}]},{"id":2,"name":"节点名称测试数据2","ip":"198.122.2.1","port":"80","description":"节点描述测试数据2","status":1,"dcServiceList":[]},{"id":3,"name":"节点名称测试数据3","ip":"255.255.255.0","port":"8081","description":"节点描述测试数据3","status":1,"dcServiceList":[{"id":2,"nodeId":3,"url":"url测试数据2","projectType":1,"heartBeatUrl":"心跳url测试数据2","status":3}]},{"id":4,"name":"节点名称测试数据4","ip":"192.0.145.1","port":"8082","description":"节点描述测试数据4","status":2,"dcServiceList":[]},{"id":5,"name":"节点名称测试数据5","ip":"22.1.1.52","port":"8083","description":"节点描述测试数据5","status":2,"dcServiceList":[]},{"id":6,"name":"节点名称测试数据6","ip":"12.154.87.23","port":"8084","description":"节点描述测试数据6","status":3,"dcServiceList":[]},{"id":7,"name":"节点名称测试数据7","ip":"142.23.11.4","port":"8085","description":"节点描述测试数据7","status":3,"dcServiceList":[]}],"total":7,"pageNum":1,"pageSize":10,"totalPages":1},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiYzU5M2NkMDQ5YWE2NDlkOWE4MjI5NjEzNzRhYWI0MzAifQ.vufHQivjSVSpTcOTFUKPIhc8ylvPgmc7PJxEa0VlYSs"}
+2020-10-13 13:39:39,103 [http-nio-8067-exec-1] INFO  c.m.d.b.c.m.NodeManageController 105 - --------------- searchNodeByParam() 方法结束 ---------------
+2020-10-13 13:47:14,656 [http-nio-8067-exec-2] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-13 13:47:14,658 [http-nio-8067-exec-2] INFO  c.m.d.b.c.manage.LoginController 87 - --------------- userLogin() 方法开始 ---------------
+2020-10-13 13:47:14,658 [http-nio-8067-exec-2] INFO  c.m.d.b.c.manage.LoginController 136 - 参数 param ：{"username":"admin","password":"123123123"}
+2020-10-13 13:47:14,752 [http-nio-8067-exec-2] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"username":"admin"},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiZDg1YWZjZDdiODg2NDk1NmI2M2NhZjE0MTFkNzFiMzQifQ.XY_vg5CRwVKPoDlzSLxI5HfcZJ9phPjBeN7hx39FXRM"}
+2020-10-13 13:47:14,753 [http-nio-8067-exec-2] INFO  c.m.d.b.c.manage.LoginController 105 - --------------- userLogin() 方法结束 ---------------
+2020-10-13 13:50:11,812 [http-nio-8067-exec-5] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-13 13:50:11,908 [http-nio-8067-exec-5] INFO  c.m.d.b.c.m.TaskTypeManageController 87 - --------------- addTaskType() 方法开始 ---------------
+2020-10-13 13:50:11,909 [http-nio-8067-exec-5] INFO  c.m.d.b.c.m.TaskTypeManageController 136 - 参数 param ：{"projectType":1,"taskType":1,"taskName":"云采集任务名称模拟1","schedulingUrl":"调度Url模拟1","cancelUrl":"取消Url模拟1","description":"描述信息模拟1"}
+2020-10-13 13:50:11,961 [http-nio-8067-exec-5] INFO  c.m.d.b.c.m.TaskTypeManageController 97 - --------------- addTaskType() 方法执行异常 ---------------
+2020-10-13 13:50:11,962 [http-nio-8067-exec-5] ERROR c.m.d.s.e.GlobalExceptionHandler 24 - com.monetware.dispatchcenter.system.exception.ServiceException: 项目类型下此任务类型已经存在
+2020-10-13 13:50:34,321 [http-nio-8067-exec-7] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-13 13:50:34,329 [http-nio-8067-exec-7] INFO  c.m.d.b.c.m.TaskTypeManageController 87 - --------------- addTaskType() 方法开始 ---------------
+2020-10-13 13:50:34,330 [http-nio-8067-exec-7] INFO  c.m.d.b.c.m.TaskTypeManageController 136 - 参数 param ：{"projectType":1,"taskType":2,"taskName":"云采集任务名称模拟2","schedulingUrl":"调度Url模拟2","cancelUrl":"取消Url模拟2","description":"描述信息模拟2"}
+2020-10-13 13:50:34,418 [http-nio-8067-exec-7] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":1,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiZDg1YWZjZDdiODg2NDk1NmI2M2NhZjE0MTFkNzFiMzQifQ.XY_vg5CRwVKPoDlzSLxI5HfcZJ9phPjBeN7hx39FXRM"}
+2020-10-13 13:50:34,418 [http-nio-8067-exec-7] INFO  c.m.d.b.c.m.TaskTypeManageController 105 - --------------- addTaskType() 方法结束 ---------------
+2020-10-13 14:06:11,295 [http-nio-8067-exec-10] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-13 14:06:11,398 [http-nio-8067-exec-10] INFO  c.m.d.b.c.m.TaskTypeManageController 87 - --------------- deleteTaskType() 方法开始 ---------------
+2020-10-13 14:06:11,398 [http-nio-8067-exec-10] INFO  c.m.d.b.c.m.TaskTypeManageController 136 - 参数 param ：{"id":2}
+2020-10-13 14:06:11,557 [http-nio-8067-exec-10] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":1,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiZDg1YWZjZDdiODg2NDk1NmI2M2NhZjE0MTFkNzFiMzQifQ.XY_vg5CRwVKPoDlzSLxI5HfcZJ9phPjBeN7hx39FXRM"}
+2020-10-13 14:06:11,558 [http-nio-8067-exec-10] INFO  c.m.d.b.c.m.TaskTypeManageController 105 - --------------- deleteTaskType() 方法结束 ---------------
+2020-10-13 14:06:54,847 [http-nio-8067-exec-1] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-13 14:06:54,878 [http-nio-8067-exec-1] INFO  c.m.d.b.c.m.TaskTypeManageController 87 - --------------- addTaskType() 方法开始 ---------------
+2020-10-13 14:06:54,879 [http-nio-8067-exec-1] INFO  c.m.d.b.c.m.TaskTypeManageController 136 - 参数 param ：{"projectType":1,"taskType":2,"taskName":"云采集任务名称模拟数据2","schedulingUrl":"调度Url模拟数据2","cancelUrl":"取消Url模拟数据2","description":"描述信息模拟数据2"}
+2020-10-13 14:06:54,943 [http-nio-8067-exec-1] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":1,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiZDg1YWZjZDdiODg2NDk1NmI2M2NhZjE0MTFkNzFiMzQifQ.XY_vg5CRwVKPoDlzSLxI5HfcZJ9phPjBeN7hx39FXRM"}
+2020-10-13 14:06:54,944 [http-nio-8067-exec-1] INFO  c.m.d.b.c.m.TaskTypeManageController 105 - --------------- addTaskType() 方法结束 ---------------

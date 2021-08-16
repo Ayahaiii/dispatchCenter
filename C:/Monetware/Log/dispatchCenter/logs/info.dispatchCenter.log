@@ -1,0 +1,53 @@
+2020-10-23 16:12:34,921 [main] INFO  c.m.d.DispatchcenterApplication 55 - Starting DispatchcenterApplication on budiMacBook-Pro.local with PID 57488 (/Users/budi/Downloads/monetware/dispatchCenter-api/target/classes started by budi in /Users/budi/Downloads/monetware/dispatchCenter-api)
+2020-10-23 16:12:34,935 [main] INFO  c.m.d.DispatchcenterApplication 655 - The following profiles are active: dev
+2020-10-23 16:12:36,026 [main] WARN  t.m.s.mapper.ClassPathMapperScanner 142 - No MyBatis mapper was found in '[com.monetware.dispatchcenter.business.dao.*]' package. Please check your configuration.
+2020-10-23 16:12:36,195 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcAdminDao' and 'com.monetware.dispatchcenter.business.dao.DcAdminDao' mapperInterface. Bean already defined with the same name!
+2020-10-23 16:12:36,196 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcNodeDao' and 'com.monetware.dispatchcenter.business.dao.DcNodeDao' mapperInterface. Bean already defined with the same name!
+2020-10-23 16:12:36,196 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcServiceDao' and 'com.monetware.dispatchcenter.business.dao.DcServiceDao' mapperInterface. Bean already defined with the same name!
+2020-10-23 16:12:36,196 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcTaskDao' and 'com.monetware.dispatchcenter.business.dao.DcTaskDao' mapperInterface. Bean already defined with the same name!
+2020-10-23 16:12:36,197 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcTaskTypeDao' and 'com.monetware.dispatchcenter.business.dao.DcTaskTypeDao' mapperInterface. Bean already defined with the same name!
+2020-10-23 16:12:36,197 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 166 - No MyBatis mapper was found in '[com.monetware.dispatchcenter]' package. Please check your configuration.
+2020-10-23 16:12:36,270 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-23 16:12:36,274 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-23 16:12:36,324 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2020-10-23 16:12:36,575 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0' of type [org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-23 16:12:36,955 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8067 (http)
+2020-10-23 16:12:36,966 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8067"]
+2020-10-23 16:12:36,967 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-10-23 16:12:36,967 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-10-23 16:12:37,135 [main] INFO  o.a.c.c.C.[.[.[/cloudexperiment] 173 - Initializing Spring embedded WebApplicationContext
+2020-10-23 16:12:37,136 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 2134 ms
+2020-10-23 16:12:37,288 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure 56 - Init DruidDataSource
+2020-10-23 16:12:37,500 [main] INFO  c.alibaba.druid.pool.DruidDataSource 889 - {dataSource-1} inited
+2020-10-23 16:12:38,589 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-23 16:12:38,653 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-23 16:12:38,757 [main] INFO  t.m.m.a.MapperCacheDisabler 60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-10-23 16:12:38,758 [main] INFO  t.m.m.a.MapperCacheDisabler 60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-10-23 16:12:38,758 [main] INFO  t.m.m.a.MapperCacheDisabler 60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-10-23 16:12:38,758 [main] INFO  t.m.m.a.MapperCacheDisabler 83 - Clear EntityHelper entityTableMap cache.
+2020-10-23 16:12:38,984 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8067"]
+2020-10-23 16:12:39,010 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8067 (http) with context path '/cloudexperiment'
+2020-10-23 16:12:39,011 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper 151 - Context refreshed
+2020-10-23 16:12:39,022 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper 154 - Found 1 custom documentation plugin(s)
+2020-10-23 16:12:39,043 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner 41 - Scanning for api listing references
+2020-10-23 16:12:39,058 [main] INFO  c.m.d.DispatchcenterApplication 61 - Started DispatchcenterApplication in 5.161 seconds (JVM running for 5.942)
+2020-10-23 16:13:41,045 [http-nio-8067-exec-1] INFO  o.a.c.c.C.[.[.[/cloudexperiment] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-23 16:13:41,046 [http-nio-8067-exec-1] INFO  o.s.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2020-10-23 16:13:41,060 [http-nio-8067-exec-1] INFO  o.s.web.servlet.DispatcherServlet 547 - Completed initialization in 14 ms
+2020-10-23 16:13:41,092 [http-nio-8067-exec-1] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-23 16:13:41,177 [http-nio-8067-exec-1] INFO  c.m.d.b.c.manage.LoginController 87 - --------------- userLogin() 方法开始 ---------------
+2020-10-23 16:13:41,193 [http-nio-8067-exec-1] INFO  c.m.d.b.c.manage.LoginController 136 - 参数 param ：{"username":"admin","password":"123123123"}
+2020-10-23 16:13:42,104 [http-nio-8067-exec-2] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-23 16:13:42,105 [http-nio-8067-exec-2] INFO  c.m.d.b.c.manage.LoginController 87 - --------------- userLogin() 方法开始 ---------------
+2020-10-23 16:13:42,105 [http-nio-8067-exec-2] INFO  c.m.d.b.c.manage.LoginController 136 - 参数 param ：{"username":"admin","password":"123123123"}
+2020-10-23 16:13:42,146 [http-nio-8067-exec-2] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"username":"admin"},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiNzg4NzYwMDc3ZTE4NGE0MmI1ZTMzZGVjMDg2MzQ0MGIifQ.4QAK8pTugsqh50TSgq2yc-tuTddY4OLC8uFIQ6Jz9jI"}
+2020-10-23 16:13:42,146 [http-nio-8067-exec-1] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"username":"admin"},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiOTI0NDEwNjU5OWI0NDY5Mzg0MzZiNjE5ZTYwMzcxMDMifQ.xcEaqy16TYeM8rD-4nb2EelJz-oVHQz-8tFiNawrfZE"}
+2020-10-23 16:13:42,146 [http-nio-8067-exec-2] INFO  c.m.d.b.c.manage.LoginController 105 - --------------- userLogin() 方法结束 ---------------
+2020-10-23 16:13:42,146 [http-nio-8067-exec-1] INFO  c.m.d.b.c.manage.LoginController 105 - --------------- userLogin() 方法结束 ---------------
+2020-10-23 16:13:42,268 [http-nio-8067-exec-3] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-10-23 16:13:42,314 [http-nio-8067-exec-3] INFO  c.m.d.b.c.m.NodeManageController 87 - --------------- searchNodeByParam() 方法开始 ---------------
+2020-10-23 16:13:42,315 [http-nio-8067-exec-3] INFO  c.m.d.b.c.m.NodeManageController 136 - 参数 param ：{"pageNum":1,"pageSize":10,"status":null}
+2020-10-23 16:13:42,520 [http-nio-8067-exec-3] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"data":[{"id":1,"name":"节点名称测试数据1","ip":"127.0.0.1","port":"8080","description":"节点描述测试数据1","status":1,"dcServiceList":[{"id":1,"nodeId":1,"url":"url测试数据1","projectType":1,"heartBeatUrl":"心跳url测试数据1","status":1},{"id":3,"nodeId":1,"url":"url测试数据3","projectType":2,"heartBeatUrl":"心跳url测试数据3","status":3}]},{"id":2,"name":"节点名称测试数据2","ip":"198.122.2.1","port":"80","description":"节点描述测试数据2","status":1,"dcServiceList":[]},{"id":3,"name":"节点名称测试数据3","ip":"255.255.255.0","port":"8081","description":"节点描述测试数据3","status":1,"dcServiceList":[{"id":2,"nodeId":3,"url":"url测试数据2","projectType":1,"heartBeatUrl":"心跳url测试数据2","status":3}]},{"id":4,"name":"节点名称测试数据4","ip":"192.0.145.1","port":"8082","description":"节点描述测试数据4","status":2,"dcServiceList":[]},{"id":5,"name":"节点名称测试数据5","ip":"22.1.1.52","port":"8083","description":"节点描述测试数据5","status":2,"dcServiceList":[]},{"id":6,"name":"节点名称测试数据6","ip":"12.154.87.23","port":"8084","description":"节点描述测试数据6","status":3,"dcServiceList":[]},{"id":7,"name":"节点名称测试数据7","ip":"142.23.11.4","port":"8085","description":"节点描述测试数据7","status":3,"dcServiceList":[]}],"total":7,"pageNum":1,"pageSize":10,"totalPages":1},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiNzg4NzYwMDc3ZTE4NGE0MmI1ZTMzZGVjMDg2MzQ0MGIifQ.4QAK8pTugsqh50TSgq2yc-tuTddY4OLC8uFIQ6Jz9jI"}
+2020-10-23 16:13:42,521 [http-nio-8067-exec-3] INFO  c.m.d.b.c.m.NodeManageController 105 - --------------- searchNodeByParam() 方法结束 ---------------
+2020-10-23 16:22:58,351 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-23 16:22:58,483 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1658 - {dataSource-1} closed

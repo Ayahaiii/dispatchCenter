@@ -1,0 +1,455 @@
+2020-09-18 13:36:05,036 [main] INFO  c.m.d.DispatchcenterApplication 55 - Starting DispatchcenterApplication on bodideMacBook-Pro.local with PID 18512 (/Users/budi/Downloads/monetware/dispatchCenter-api/target/classes started by budi in /Users/budi/Downloads/monetware/dispatchCenter-api)
+2020-09-18 13:36:05,038 [main] INFO  c.m.d.DispatchcenterApplication 655 - The following profiles are active: dev
+2020-09-18 13:36:05,802 [main] WARN  t.m.s.mapper.ClassPathMapperScanner 142 - No MyBatis mapper was found in '[com.monetware.dispatchcenter.business.dao.*]' package. Please check your configuration.
+2020-09-18 13:36:05,947 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcAdminDao' and 'com.monetware.dispatchcenter.business.dao.DcAdminDao' mapperInterface. Bean already defined with the same name!
+2020-09-18 13:36:05,947 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcNodeDao' and 'com.monetware.dispatchcenter.business.dao.DcNodeDao' mapperInterface. Bean already defined with the same name!
+2020-09-18 13:36:05,947 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcServiceDao' and 'com.monetware.dispatchcenter.business.dao.DcServiceDao' mapperInterface. Bean already defined with the same name!
+2020-09-18 13:36:05,948 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcTaskApiDao' and 'com.monetware.dispatchcenter.business.dao.DcTaskApiDao' mapperInterface. Bean already defined with the same name!
+2020-09-18 13:36:05,948 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcTaskDao' and 'com.monetware.dispatchcenter.business.dao.DcTaskDao' mapperInterface. Bean already defined with the same name!
+2020-09-18 13:36:05,948 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 166 - No MyBatis mapper was found in '[com.monetware.dispatchcenter]' package. Please check your configuration.
+2020-09-18 13:36:05,996 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-18 13:36:05,999 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-18 13:36:06,037 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-09-18 13:36:06,269 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0' of type [org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-18 13:36:06,672 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8067 (http)
+2020-09-18 13:36:06,680 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8067"]
+2020-09-18 13:36:06,685 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-09-18 13:36:06,685 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-18 13:36:06,829 [main] INFO  o.a.c.c.C.[.[.[/cloudexperiment] 173 - Initializing Spring embedded WebApplicationContext
+2020-09-18 13:36:06,830 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 1759 ms
+2020-09-18 13:36:07,003 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure 56 - Init DruidDataSource
+2020-09-18 13:36:07,224 [main] INFO  c.alibaba.druid.pool.DruidDataSource 889 - {dataSource-1} inited
+2020-09-18 13:36:08,256 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-18 13:36:08,319 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-18 13:36:08,435 [main] INFO  t.m.m.a.MapperCacheDisabler 60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-09-18 13:36:08,435 [main] INFO  t.m.m.a.MapperCacheDisabler 60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-09-18 13:36:08,436 [main] INFO  t.m.m.a.MapperCacheDisabler 60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-09-18 13:36:08,436 [main] INFO  t.m.m.a.MapperCacheDisabler 83 - Clear EntityHelper entityTableMap cache.
+2020-09-18 13:36:08,702 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8067"]
+2020-09-18 13:36:08,731 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8067 (http) with context path '/cloudexperiment'
+2020-09-18 13:36:08,732 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper 151 - Context refreshed
+2020-09-18 13:36:08,745 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper 154 - Found 1 custom documentation plugin(s)
+2020-09-18 13:36:08,767 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner 41 - Scanning for api listing references
+2020-09-18 13:36:08,782 [main] INFO  c.m.d.DispatchcenterApplication 61 - Started DispatchcenterApplication in 4.185 seconds (JVM running for 4.905)
+2020-09-18 13:39:07,883 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-18 13:39:07,898 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1658 - {dataSource-1} closed
+2020-09-18 13:45:09,997 [main] INFO  c.m.d.DispatchcenterApplication 55 - Starting DispatchcenterApplication on bodideMacBook-Pro.local with PID 18852 (/Users/budi/Downloads/monetware/dispatchCenter-api/target/classes started by budi in /Users/budi/Downloads/monetware/dispatchCenter-api)
+2020-09-18 13:45:09,999 [main] INFO  c.m.d.DispatchcenterApplication 655 - The following profiles are active: dev
+2020-09-18 13:45:10,753 [main] WARN  t.m.s.mapper.ClassPathMapperScanner 142 - No MyBatis mapper was found in '[com.monetware.dispatchcenter.business.dao.*]' package. Please check your configuration.
+2020-09-18 13:45:10,899 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcAdminDao' and 'com.monetware.dispatchcenter.business.dao.DcAdminDao' mapperInterface. Bean already defined with the same name!
+2020-09-18 13:45:10,899 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcNodeDao' and 'com.monetware.dispatchcenter.business.dao.DcNodeDao' mapperInterface. Bean already defined with the same name!
+2020-09-18 13:45:10,899 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcServiceDao' and 'com.monetware.dispatchcenter.business.dao.DcServiceDao' mapperInterface. Bean already defined with the same name!
+2020-09-18 13:45:10,899 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcTaskApiDao' and 'com.monetware.dispatchcenter.business.dao.DcTaskApiDao' mapperInterface. Bean already defined with the same name!
+2020-09-18 13:45:10,899 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcTaskDao' and 'com.monetware.dispatchcenter.business.dao.DcTaskDao' mapperInterface. Bean already defined with the same name!
+2020-09-18 13:45:10,900 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 166 - No MyBatis mapper was found in '[com.monetware.dispatchcenter]' package. Please check your configuration.
+2020-09-18 13:45:10,946 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-18 13:45:10,948 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-18 13:45:10,980 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2020-09-18 13:45:11,193 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0' of type [org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-18 13:45:11,619 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8067 (http)
+2020-09-18 13:45:11,627 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8067"]
+2020-09-18 13:45:11,628 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-09-18 13:45:11,628 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-18 13:45:11,778 [main] INFO  o.a.c.c.C.[.[.[/cloudexperiment] 173 - Initializing Spring embedded WebApplicationContext
+2020-09-18 13:45:11,779 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 1744 ms
+2020-09-18 13:45:11,945 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure 56 - Init DruidDataSource
+2020-09-18 13:45:12,170 [main] INFO  c.alibaba.druid.pool.DruidDataSource 889 - {dataSource-1} inited
+2020-09-18 13:45:13,138 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-18 13:45:13,206 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-18 13:45:13,320 [main] INFO  t.m.m.a.MapperCacheDisabler 60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-09-18 13:45:13,321 [main] INFO  t.m.m.a.MapperCacheDisabler 60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-09-18 13:45:13,321 [main] INFO  t.m.m.a.MapperCacheDisabler 60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-09-18 13:45:13,321 [main] INFO  t.m.m.a.MapperCacheDisabler 83 - Clear EntityHelper entityTableMap cache.
+2020-09-18 13:45:13,590 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8067"]
+2020-09-18 13:45:13,616 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8067 (http) with context path '/cloudexperiment'
+2020-09-18 13:45:13,618 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper 151 - Context refreshed
+2020-09-18 13:45:13,632 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper 154 - Found 1 custom documentation plugin(s)
+2020-09-18 13:45:13,655 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner 41 - Scanning for api listing references
+2020-09-18 13:45:13,672 [main] INFO  c.m.d.DispatchcenterApplication 61 - Started DispatchcenterApplication in 4.042 seconds (JVM running for 4.565)
+2020-09-18 14:16:44,148 [http-nio-8067-exec-3] INFO  o.a.c.c.C.[.[.[/cloudexperiment] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-18 14:16:44,149 [http-nio-8067-exec-3] INFO  o.s.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2020-09-18 14:16:44,160 [http-nio-8067-exec-3] INFO  o.s.web.servlet.DispatcherServlet 547 - Completed initialization in 11 ms
+2020-09-18 14:16:44,197 [http-nio-8067-exec-3] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 14:16:44,210 [http-nio-8067-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] 175 - Servlet.service() for servlet [dispatcherServlet] in context with path [/cloudexperiment] threw exception [Request processing failed; nested exception is com.monetware.dispatchcenter.system.exception.ServiceException: 登陆超时,请重新登陆] with root cause
+com.monetware.dispatchcenter.system.exception.ServiceException: 登陆超时,请重新登陆
+	at com.monetware.dispatchcenter.system.interceptor.customInterceptors.AuthenticationInterceptor.preHandle(AuthenticationInterceptor.java:35)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.monetware.dispatchcenter.system.config.CORSFilter.doFilter(CORSFilter.java:38)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-09-18 14:16:44,217 [http-nio-8067-exec-3] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 14:16:44,222 [http-nio-8067-exec-3] ERROR c.m.d.s.e.GlobalExceptionHandler 24 - com.monetware.dispatchcenter.system.exception.ServiceException: 登陆超时,请重新登陆
+2020-09-18 14:16:55,183 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-18 14:16:55,229 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1658 - {dataSource-1} closed
+2020-09-18 14:16:59,639 [main] INFO  c.m.d.DispatchcenterApplication 55 - Starting DispatchcenterApplication on bodideMacBook-Pro.local with PID 19607 (/Users/budi/Downloads/monetware/dispatchCenter-api/target/classes started by budi in /Users/budi/Downloads/monetware/dispatchCenter-api)
+2020-09-18 14:16:59,642 [main] INFO  c.m.d.DispatchcenterApplication 655 - The following profiles are active: dev
+2020-09-18 14:17:00,369 [main] WARN  t.m.s.mapper.ClassPathMapperScanner 142 - No MyBatis mapper was found in '[com.monetware.dispatchcenter.business.dao.*]' package. Please check your configuration.
+2020-09-18 14:17:00,478 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcAdminDao' and 'com.monetware.dispatchcenter.business.dao.DcAdminDao' mapperInterface. Bean already defined with the same name!
+2020-09-18 14:17:00,478 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcNodeDao' and 'com.monetware.dispatchcenter.business.dao.DcNodeDao' mapperInterface. Bean already defined with the same name!
+2020-09-18 14:17:00,478 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcServiceDao' and 'com.monetware.dispatchcenter.business.dao.DcServiceDao' mapperInterface. Bean already defined with the same name!
+2020-09-18 14:17:00,479 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcTaskApiDao' and 'com.monetware.dispatchcenter.business.dao.DcTaskApiDao' mapperInterface. Bean already defined with the same name!
+2020-09-18 14:17:00,479 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcTaskDao' and 'com.monetware.dispatchcenter.business.dao.DcTaskDao' mapperInterface. Bean already defined with the same name!
+2020-09-18 14:17:00,479 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 166 - No MyBatis mapper was found in '[com.monetware.dispatchcenter]' package. Please check your configuration.
+2020-09-18 14:17:00,514 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-18 14:17:00,516 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-18 14:17:00,549 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 19ms. Found 0 Redis repository interfaces.
+2020-09-18 14:17:00,834 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0' of type [org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-18 14:17:01,288 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8067 (http)
+2020-09-18 14:17:01,294 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8067"]
+2020-09-18 14:17:01,295 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-09-18 14:17:01,295 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-18 14:17:01,432 [main] INFO  o.a.c.c.C.[.[.[/cloudexperiment] 173 - Initializing Spring embedded WebApplicationContext
+2020-09-18 14:17:01,432 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 1742 ms
+2020-09-18 14:17:01,580 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure 56 - Init DruidDataSource
+2020-09-18 14:17:01,867 [main] INFO  c.alibaba.druid.pool.DruidDataSource 889 - {dataSource-1} inited
+2020-09-18 14:17:02,886 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-18 14:17:02,953 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-18 14:17:03,048 [main] INFO  t.m.m.a.MapperCacheDisabler 60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-09-18 14:17:03,048 [main] INFO  t.m.m.a.MapperCacheDisabler 60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-09-18 14:17:03,049 [main] INFO  t.m.m.a.MapperCacheDisabler 60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-09-18 14:17:03,049 [main] INFO  t.m.m.a.MapperCacheDisabler 83 - Clear EntityHelper entityTableMap cache.
+2020-09-18 14:17:03,327 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8067"]
+2020-09-18 14:17:03,349 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8067 (http) with context path '/cloudexperiment'
+2020-09-18 14:17:03,350 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper 151 - Context refreshed
+2020-09-18 14:17:03,362 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper 154 - Found 1 custom documentation plugin(s)
+2020-09-18 14:17:03,381 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner 41 - Scanning for api listing references
+2020-09-18 14:17:03,395 [main] INFO  c.m.d.DispatchcenterApplication 61 - Started DispatchcenterApplication in 4.067 seconds (JVM running for 4.771)
+2020-09-18 14:17:06,666 [http-nio-8067-exec-1] INFO  o.a.c.c.C.[.[.[/cloudexperiment] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-18 14:17:06,666 [http-nio-8067-exec-1] INFO  o.s.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2020-09-18 14:17:06,673 [http-nio-8067-exec-1] INFO  o.s.web.servlet.DispatcherServlet 547 - Completed initialization in 7 ms
+2020-09-18 14:17:06,694 [http-nio-8067-exec-1] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 14:17:06,703 [http-nio-8067-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] 175 - Servlet.service() for servlet [dispatcherServlet] in context with path [/cloudexperiment] threw exception [Request processing failed; nested exception is com.monetware.dispatchcenter.system.exception.ServiceException: 登陆超时,请重新登陆] with root cause
+com.monetware.dispatchcenter.system.exception.ServiceException: 登陆超时,请重新登陆
+	at com.monetware.dispatchcenter.system.interceptor.customInterceptors.AuthenticationInterceptor.preHandle(AuthenticationInterceptor.java:35)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.monetware.dispatchcenter.system.config.CORSFilter.doFilter(CORSFilter.java:38)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-09-18 14:17:06,707 [http-nio-8067-exec-1] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 14:17:06,711 [http-nio-8067-exec-1] ERROR c.m.d.s.e.GlobalExceptionHandler 24 - com.monetware.dispatchcenter.system.exception.ServiceException: 登陆超时,请重新登陆
+2020-09-18 14:17:31,329 [http-nio-8067-exec-4] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 14:17:31,332 [http-nio-8067-exec-4] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 14:17:31,332 [http-nio-8067-exec-4] ERROR c.m.d.s.e.GlobalExceptionHandler 24 - com.monetware.dispatchcenter.system.exception.ServiceException: 登陆超时,请重新登陆
+2020-09-18 14:17:52,723 [http-nio-8067-exec-5] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 14:17:52,766 [http-nio-8067-exec-5] INFO  c.m.d.b.c.manage.LoginController 87 - --------------- userLogin() 方法开始 ---------------
+2020-09-18 14:17:52,768 [http-nio-8067-exec-5] INFO  c.m.d.b.c.manage.LoginController 136 - 参数 param ：{"username":"admin","password":"123123123"}
+2020-09-18 14:17:53,705 [http-nio-8067-exec-5] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"username":"admin"},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiN2ExYzlmMjY4ZTFjNDZjNDkwZTA0MTgwZGJiMDJkZTYifQ.-VeMFTaZc8VD9N_c4W4inTt2jg4yaI1BOPtNNoaM4xQ"}
+2020-09-18 14:17:53,706 [http-nio-8067-exec-5] INFO  c.m.d.b.c.manage.LoginController 105 - --------------- userLogin() 方法结束 ---------------
+2020-09-18 14:22:34,786 [http-nio-8067-exec-8] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 14:22:34,788 [http-nio-8067-exec-8] ERROR c.m.d.s.e.GlobalExceptionHandler 24 - com.monetware.dispatchcenter.system.exception.ServiceException: 登陆超时,请重新登陆
+2020-09-18 14:22:49,057 [http-nio-8067-exec-9] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 14:22:49,097 [http-nio-8067-exec-9] ERROR c.m.d.s.e.GlobalExceptionHandler 31 - org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 127.0.0.1:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1534)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1442)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1228)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1211)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:975)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:360)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:134)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:97)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:84)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:215)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:188)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:96)
+	at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:53)
+	at com.monetware.dispatchcenter.system.util.redis.RedisUtil.get(RedisUtil.java:92)
+	at com.monetware.dispatchcenter.system.interceptor.customInterceptors.WebTokenCheck.check(WebTokenCheck.java:42)
+	at com.monetware.dispatchcenter.system.interceptor.customInterceptors.AuthenticationInterceptor.preHandle(AuthenticationInterceptor.java:33)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.monetware.dispatchcenter.system.config.CORSFilter.doFilter(CORSFilter.java:38)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to 127.0.0.1:6379
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:242)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:206)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:115)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:115)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1440)
+	... 61 more
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-09-18 14:24:22,616 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-18 14:24:22,752 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 1658 - {dataSource-1} closed
+2020-09-18 14:24:25,476 [main] INFO  c.m.d.DispatchcenterApplication 55 - Starting DispatchcenterApplication on bodideMacBook-Pro.local with PID 19783 (/Users/budi/Downloads/monetware/dispatchCenter-api/target/classes started by budi in /Users/budi/Downloads/monetware/dispatchCenter-api)
+2020-09-18 14:24:25,478 [main] INFO  c.m.d.DispatchcenterApplication 655 - The following profiles are active: dev
+2020-09-18 14:24:26,147 [main] WARN  t.m.s.mapper.ClassPathMapperScanner 142 - No MyBatis mapper was found in '[com.monetware.dispatchcenter.business.dao.*]' package. Please check your configuration.
+2020-09-18 14:24:26,252 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcAdminDao' and 'com.monetware.dispatchcenter.business.dao.DcAdminDao' mapperInterface. Bean already defined with the same name!
+2020-09-18 14:24:26,252 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcNodeDao' and 'com.monetware.dispatchcenter.business.dao.DcNodeDao' mapperInterface. Bean already defined with the same name!
+2020-09-18 14:24:26,252 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcServiceDao' and 'com.monetware.dispatchcenter.business.dao.DcServiceDao' mapperInterface. Bean already defined with the same name!
+2020-09-18 14:24:26,253 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcTaskApiDao' and 'com.monetware.dispatchcenter.business.dao.DcTaskApiDao' mapperInterface. Bean already defined with the same name!
+2020-09-18 14:24:26,253 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'dcTaskDao' and 'com.monetware.dispatchcenter.business.dao.DcTaskDao' mapperInterface. Bean already defined with the same name!
+2020-09-18 14:24:26,253 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 166 - No MyBatis mapper was found in '[com.monetware.dispatchcenter]' package. Please check your configuration.
+2020-09-18 14:24:26,283 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-18 14:24:26,285 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-18 14:24:26,307 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2020-09-18 14:24:26,512 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0' of type [org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-18 14:24:26,830 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8067 (http)
+2020-09-18 14:24:26,836 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8067"]
+2020-09-18 14:24:26,836 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-09-18 14:24:26,837 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-18 14:24:26,969 [main] INFO  o.a.c.c.C.[.[.[/cloudexperiment] 173 - Initializing Spring embedded WebApplicationContext
+2020-09-18 14:24:26,969 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 1456 ms
+2020-09-18 14:24:27,098 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure 56 - Init DruidDataSource
+2020-09-18 14:24:27,300 [main] INFO  c.alibaba.druid.pool.DruidDataSource 889 - {dataSource-1} inited
+2020-09-18 14:24:28,132 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-18 14:24:28,199 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-18 14:24:28,291 [main] INFO  t.m.m.a.MapperCacheDisabler 60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-09-18 14:24:28,291 [main] INFO  t.m.m.a.MapperCacheDisabler 60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-09-18 14:24:28,292 [main] INFO  t.m.m.a.MapperCacheDisabler 60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-09-18 14:24:28,292 [main] INFO  t.m.m.a.MapperCacheDisabler 83 - Clear EntityHelper entityTableMap cache.
+2020-09-18 14:24:28,541 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8067"]
+2020-09-18 14:24:28,566 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8067 (http) with context path '/cloudexperiment'
+2020-09-18 14:24:28,567 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper 151 - Context refreshed
+2020-09-18 14:24:28,579 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper 154 - Found 1 custom documentation plugin(s)
+2020-09-18 14:24:28,598 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner 41 - Scanning for api listing references
+2020-09-18 14:24:28,613 [main] INFO  c.m.d.DispatchcenterApplication 61 - Started DispatchcenterApplication in 3.445 seconds (JVM running for 4.095)
+2020-09-18 14:24:34,420 [http-nio-8067-exec-1] INFO  o.a.c.c.C.[.[.[/cloudexperiment] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-18 14:24:34,421 [http-nio-8067-exec-1] INFO  o.s.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2020-09-18 14:24:34,430 [http-nio-8067-exec-1] INFO  o.s.web.servlet.DispatcherServlet 547 - Completed initialization in 9 ms
+2020-09-18 14:24:34,450 [http-nio-8067-exec-1] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 14:24:34,860 [http-nio-8067-exec-1] ERROR c.m.d.s.e.GlobalExceptionHandler 24 - com.monetware.dispatchcenter.system.exception.ServiceException: 登陆超时,请重新登陆
+2020-09-18 14:24:47,653 [http-nio-8067-exec-3] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 14:24:47,691 [http-nio-8067-exec-3] INFO  c.m.d.b.c.manage.LoginController 87 - --------------- userLogin() 方法开始 ---------------
+2020-09-18 14:24:47,694 [http-nio-8067-exec-3] INFO  c.m.d.b.c.manage.LoginController 136 - 参数 param ：{"username":"admin","password":"123123123"}
+2020-09-18 14:24:48,152 [http-nio-8067-exec-3] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"username":"admin"},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiYmRhZmJiMDIwZDliNGRlZDhiYWM0OTg4MTNkZDJlNDAifQ.R34vPOdchWAi1NR6v0L4Z1cKTpkzZ11UWgBU9xf3KBE"}
+2020-09-18 14:24:48,152 [http-nio-8067-exec-3] INFO  c.m.d.b.c.manage.LoginController 105 - --------------- userLogin() 方法结束 ---------------
+2020-09-18 14:24:58,130 [http-nio-8067-exec-4] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 14:24:58,148 [http-nio-8067-exec-4] INFO  c.m.d.b.c.m.NodeManageController 87 - --------------- addNode() 方法开始 ---------------
+2020-09-18 14:24:58,149 [http-nio-8067-exec-4] INFO  c.m.d.b.c.m.NodeManageController 136 - 参数 param ：{"ip":"admin","name":"123123123","port":"","description":""}
+2020-09-18 14:24:58,619 [http-nio-8067-exec-4] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":1,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiYmRhZmJiMDIwZDliNGRlZDhiYWM0OTg4MTNkZDJlNDAifQ.R34vPOdchWAi1NR6v0L4Z1cKTpkzZ11UWgBU9xf3KBE"}
+2020-09-18 14:24:58,620 [http-nio-8067-exec-4] INFO  c.m.d.b.c.m.NodeManageController 105 - --------------- addNode() 方法结束 ---------------
+2020-09-18 15:16:55,838 [http-nio-8067-exec-7] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 15:16:55,848 [http-nio-8067-exec-7] INFO  c.m.d.b.c.manage.LoginController 87 - --------------- userLogin() 方法开始 ---------------
+2020-09-18 15:16:55,850 [http-nio-8067-exec-7] INFO  c.m.d.b.c.manage.LoginController 136 - 参数 param ：{"username":"admin","password":"123123123"}
+2020-09-18 15:16:55,995 [http-nio-8067-exec-7] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"username":"admin"},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiN2UyZGE4ODhiZGYyNDBmMzhlMGIwOWEwNGNkYzZkM2EifQ.9QZ6Rin78Wnp9R2vwDpNw0ZaOzhPaeIpazDff_pdbvQ"}
+2020-09-18 15:16:55,996 [http-nio-8067-exec-7] INFO  c.m.d.b.c.manage.LoginController 105 - --------------- userLogin() 方法结束 ---------------
+2020-09-18 15:38:52,844 [http-nio-8067-exec-4] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 15:38:52,846 [http-nio-8067-exec-4] INFO  c.m.d.b.c.manage.LoginController 87 - --------------- userLogin() 方法开始 ---------------
+2020-09-18 15:38:52,846 [http-nio-8067-exec-4] INFO  c.m.d.b.c.manage.LoginController 136 - 参数 param ：{"username":"admin","password":"123123123"}
+2020-09-18 15:38:52,965 [http-nio-8067-exec-4] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"username":"admin"},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiZDZjYTgzNWUxZmU3NDNiNDhlNDY0NjM0NjljOWQ5YTYifQ.qogQcgg9Uw6KwaJL6E0In6pHfeJ03agOUv8JeG7NWyg"}
+2020-09-18 15:38:52,966 [http-nio-8067-exec-4] INFO  c.m.d.b.c.manage.LoginController 105 - --------------- userLogin() 方法结束 ---------------
+2020-09-18 15:40:50,513 [http-nio-8067-exec-5] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 15:40:50,515 [http-nio-8067-exec-5] INFO  c.m.d.b.c.manage.LoginController 87 - --------------- userLogin() 方法开始 ---------------
+2020-09-18 15:40:50,515 [http-nio-8067-exec-5] INFO  c.m.d.b.c.manage.LoginController 136 - 参数 param ：{"username":"admin","password":"123123123"}
+2020-09-18 15:40:50,604 [http-nio-8067-exec-5] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"username":"admin"},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiMjA2OWQ0OGFlMWZjNDBiOWE2MzA4NmYyOTQ4OWU3MmQifQ.N_o1o6OvwJPdB5w4Rf6QoXxB8id3OBclFZFLLyqbjFM"}
+2020-09-18 15:40:50,605 [http-nio-8067-exec-5] INFO  c.m.d.b.c.manage.LoginController 105 - --------------- userLogin() 方法结束 ---------------
+2020-09-18 15:40:52,137 [http-nio-8067-exec-6] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 15:40:52,138 [http-nio-8067-exec-6] INFO  c.m.d.b.c.manage.LoginController 87 - --------------- userLogin() 方法开始 ---------------
+2020-09-18 15:40:52,138 [http-nio-8067-exec-6] INFO  c.m.d.b.c.manage.LoginController 136 - 参数 param ：{"username":"admin","password":"123123123"}
+2020-09-18 15:40:52,154 [http-nio-8067-exec-6] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"username":"admin"},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiN2I0MDhlYWZiNGY1NDNiZDhlMWFiMjI0ODZmZWM2YjIifQ.KE_oNyHHFT1k-RYzE2T9SYiyrtjcaOYm2l5yPnvSyZ0"}
+2020-09-18 15:40:52,155 [http-nio-8067-exec-6] INFO  c.m.d.b.c.manage.LoginController 105 - --------------- userLogin() 方法结束 ---------------
+2020-09-18 15:40:52,282 [http-nio-8067-exec-7] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 15:40:52,283 [http-nio-8067-exec-7] INFO  c.m.d.b.c.manage.LoginController 87 - --------------- userLogin() 方法开始 ---------------
+2020-09-18 15:40:52,283 [http-nio-8067-exec-7] INFO  c.m.d.b.c.manage.LoginController 136 - 参数 param ：{"username":"admin","password":"123123123"}
+2020-09-18 15:40:52,292 [http-nio-8067-exec-7] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"username":"admin"},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiYzI0MmE5YTJmOTllNDY1NTg5Yzc4YzcwMTM4YjU4MTkifQ._rNerp7ZRRY7fHDxChnnBJ1yhxXfqkrzUiJ-FakDi3k"}
+2020-09-18 15:40:52,292 [http-nio-8067-exec-7] INFO  c.m.d.b.c.manage.LoginController 105 - --------------- userLogin() 方法结束 ---------------
+2020-09-18 15:40:52,425 [http-nio-8067-exec-8] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 15:40:52,426 [http-nio-8067-exec-8] INFO  c.m.d.b.c.manage.LoginController 87 - --------------- userLogin() 方法开始 ---------------
+2020-09-18 15:40:52,426 [http-nio-8067-exec-8] INFO  c.m.d.b.c.manage.LoginController 136 - 参数 param ：{"username":"admin","password":"123123123"}
+2020-09-18 15:40:52,436 [http-nio-8067-exec-8] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"username":"admin"},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiMGY4YjVjYjQ5ZWZiNDE3NGE0ZDdkYTg1NDA0ZTRmYTYifQ.HAxPpqeK4E3XcyB7qjP1IHQfK9L_3EiwnZ6psT6hKOY"}
+2020-09-18 15:40:52,436 [http-nio-8067-exec-8] INFO  c.m.d.b.c.manage.LoginController 105 - --------------- userLogin() 方法结束 ---------------
+2020-09-18 15:40:52,581 [http-nio-8067-exec-9] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 15:40:52,581 [http-nio-8067-exec-9] INFO  c.m.d.b.c.manage.LoginController 87 - --------------- userLogin() 方法开始 ---------------
+2020-09-18 15:40:52,582 [http-nio-8067-exec-9] INFO  c.m.d.b.c.manage.LoginController 136 - 参数 param ：{"username":"admin","password":"123123123"}
+2020-09-18 15:40:52,591 [http-nio-8067-exec-9] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"username":"admin"},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiYWEwN2ZlNmI0MzM5NGI5ZThlMzU4NmQ2ZjMwNTU4MTEifQ.x8PObpu0QoRYRk9sgqndiAnwbMetSSz-ka7dduU2a2Q"}
+2020-09-18 15:40:52,592 [http-nio-8067-exec-9] INFO  c.m.d.b.c.manage.LoginController 105 - --------------- userLogin() 方法结束 ---------------
+2020-09-18 15:40:52,740 [http-nio-8067-exec-10] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 15:40:52,741 [http-nio-8067-exec-10] INFO  c.m.d.b.c.manage.LoginController 87 - --------------- userLogin() 方法开始 ---------------
+2020-09-18 15:40:52,741 [http-nio-8067-exec-10] INFO  c.m.d.b.c.manage.LoginController 136 - 参数 param ：{"username":"admin","password":"123123123"}
+2020-09-18 15:40:52,749 [http-nio-8067-exec-10] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"username":"admin"},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiNzg3NTVkYzQ2MGY1NGFiYjk3Zjk4MmVjNmNkZmE2YTkifQ.4EmbCxj_RRiSGFXV_p2xMgF6CksAuQDk7JelFWglI1c"}
+2020-09-18 15:40:52,750 [http-nio-8067-exec-10] INFO  c.m.d.b.c.manage.LoginController 105 - --------------- userLogin() 方法结束 ---------------
+2020-09-18 15:40:52,892 [http-nio-8067-exec-2] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 15:40:52,892 [http-nio-8067-exec-2] INFO  c.m.d.b.c.manage.LoginController 87 - --------------- userLogin() 方法开始 ---------------
+2020-09-18 15:40:52,893 [http-nio-8067-exec-2] INFO  c.m.d.b.c.manage.LoginController 136 - 参数 param ：{"username":"admin","password":"123123123"}
+2020-09-18 15:40:52,901 [http-nio-8067-exec-2] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"username":"admin"},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiYmI2ZTkxNmIzMGVkNDgzZGE0M2UyNGJiZmVhZjUxMDYifQ.z7KM1nYkqeKbLmWuNdZAPS6I-54dVdK58BbOUVzrqr8"}
+2020-09-18 15:40:52,901 [http-nio-8067-exec-2] INFO  c.m.d.b.c.manage.LoginController 105 - --------------- userLogin() 方法结束 ---------------
+2020-09-18 15:40:53,597 [http-nio-8067-exec-1] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 15:40:53,598 [http-nio-8067-exec-1] INFO  c.m.d.b.c.manage.LoginController 87 - --------------- userLogin() 方法开始 ---------------
+2020-09-18 15:40:53,599 [http-nio-8067-exec-1] INFO  c.m.d.b.c.manage.LoginController 136 - 参数 param ：{"username":"admin","password":"123123123"}
+2020-09-18 15:40:53,620 [http-nio-8067-exec-1] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"username":"admin"},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiZWFjMTRhYjhjZGZjNDI1N2JiZTMwZDA1NDhlZmJkNDgifQ.vrmQHPpITE9jBNhKnYthhU5J0z5UogpuSMzS8pq1zFc"}
+2020-09-18 15:40:53,620 [http-nio-8067-exec-1] INFO  c.m.d.b.c.manage.LoginController 105 - --------------- userLogin() 方法结束 ---------------
+2020-09-18 15:42:34,304 [http-nio-8067-exec-3] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 15:42:34,305 [http-nio-8067-exec-3] INFO  c.m.d.b.c.manage.LoginController 87 - --------------- userLogin() 方法开始 ---------------
+2020-09-18 15:42:34,306 [http-nio-8067-exec-3] INFO  c.m.d.b.c.manage.LoginController 136 - 参数 param ：{"username":"admin","password":"123123123"}
+2020-09-18 15:42:34,391 [http-nio-8067-exec-3] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"username":"admin"},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiMTg2MjE1ZDQ1ZGE3NDUzZjkyZTkwN2YyNWFmN2VlMDUifQ.aUYZIDv3OD_wJSQVtayrPmiTUdgzcE5v66iYsZtolHM"}
+2020-09-18 15:42:34,392 [http-nio-8067-exec-3] INFO  c.m.d.b.c.manage.LoginController 105 - --------------- userLogin() 方法结束 ---------------
+2020-09-18 15:56:53,103 [http-nio-8067-exec-4] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 15:56:53,105 [http-nio-8067-exec-4] INFO  c.m.d.b.c.manage.LoginController 87 - --------------- userLogin() 方法开始 ---------------
+2020-09-18 15:56:53,105 [http-nio-8067-exec-4] INFO  c.m.d.b.c.manage.LoginController 136 - 参数 param ：{"username":"","password":""}
+2020-09-18 15:56:53,188 [http-nio-8067-exec-4] INFO  c.m.d.b.c.manage.LoginController 97 - --------------- userLogin() 方法执行异常 ---------------
+2020-09-18 15:56:53,205 [http-nio-8067-exec-4] ERROR c.m.d.s.e.GlobalExceptionHandler 24 - com.monetware.dispatchcenter.system.exception.ServiceException: 用户不存在
+2020-09-18 15:57:00,720 [http-nio-8067-exec-5] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 15:57:00,722 [http-nio-8067-exec-5] INFO  c.m.d.b.c.manage.LoginController 87 - --------------- userLogin() 方法开始 ---------------
+2020-09-18 15:57:00,722 [http-nio-8067-exec-5] INFO  c.m.d.b.c.manage.LoginController 136 - 参数 param ：{"username":"admin","password":"123123123"}
+2020-09-18 15:57:00,799 [http-nio-8067-exec-5] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"username":"admin"},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiNzk5NjAxZjhkY2NjNGIzYmIyNmIwNjEyYmY5MmQyZDkifQ._-LFtocC41LtdP5DKVRdBisZ28I8z3MWHaCoN0PLscs"}
+2020-09-18 15:57:00,799 [http-nio-8067-exec-5] INFO  c.m.d.b.c.manage.LoginController 105 - --------------- userLogin() 方法结束 ---------------
+2020-09-18 16:11:09,522 [http-nio-8067-exec-6] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 16:11:09,525 [http-nio-8067-exec-6] INFO  c.m.d.b.c.manage.LoginController 87 - --------------- userLogin() 方法开始 ---------------
+2020-09-18 16:11:09,526 [http-nio-8067-exec-6] INFO  c.m.d.b.c.manage.LoginController 136 - 参数 param ：{"username":"admin","password":"123123123"}
+2020-09-18 16:11:09,637 [http-nio-8067-exec-6] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"username":"admin"},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiMzU3ODg3NTFjNTE4NGIxZmI1ZmEwOTU5ODY2NjU2OTkifQ.DYoAgW6rBUi4G1pkplHEq82ylJfhVA2PkZAJ6a3uM9o"}
+2020-09-18 16:11:09,637 [http-nio-8067-exec-6] INFO  c.m.d.b.c.manage.LoginController 105 - --------------- userLogin() 方法结束 ---------------
+2020-09-18 16:15:50,186 [http-nio-8067-exec-7] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 16:15:50,189 [http-nio-8067-exec-7] INFO  c.m.d.b.c.manage.LoginController 87 - --------------- userLogin() 方法开始 ---------------
+2020-09-18 16:15:50,190 [http-nio-8067-exec-7] INFO  c.m.d.b.c.manage.LoginController 136 - 参数 param ：{"username":"admin","password":"123123123"}
+2020-09-18 16:15:50,275 [http-nio-8067-exec-7] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"username":"admin"},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiNzlmOTc4ODMxMzc2NDViYTg1YzI2Mjc5MWI4M2EyYWMifQ.spw2xsxdnDxfAnU2iEsbJNsq1Rb7DNCNCU1DvhCJ7qw"}
+2020-09-18 16:15:50,276 [http-nio-8067-exec-7] INFO  c.m.d.b.c.manage.LoginController 105 - --------------- userLogin() 方法结束 ---------------
+2020-09-18 16:29:26,622 [http-nio-8067-exec-9] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 16:29:26,624 [http-nio-8067-exec-9] INFO  c.m.d.b.c.manage.LoginController 87 - --------------- userLogin() 方法开始 ---------------
+2020-09-18 16:29:26,625 [http-nio-8067-exec-9] INFO  c.m.d.b.c.manage.LoginController 136 - 参数 param ：{"username":"admin","password":"123123123"}
+2020-09-18 16:29:26,718 [http-nio-8067-exec-9] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"username":"admin"},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiNDVhMDBjMTM3NTE5NDM1ZmJlODFhNzU2ZmI5YmNkMTgifQ.CtiYjKI1ObKge84PQ3NTlSraDHLYqj1cd2uElbIA214"}
+2020-09-18 16:29:26,719 [http-nio-8067-exec-9] INFO  c.m.d.b.c.manage.LoginController 105 - --------------- userLogin() 方法结束 ---------------
+2020-09-18 16:33:09,339 [http-nio-8067-exec-2] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 16:33:09,343 [http-nio-8067-exec-2] INFO  c.m.d.b.c.manage.LoginController 87 - --------------- userLogin() 方法开始 ---------------
+2020-09-18 16:33:09,343 [http-nio-8067-exec-2] INFO  c.m.d.b.c.manage.LoginController 136 - 参数 param ：{"username":"admin","password":"123123"}
+2020-09-18 16:33:09,405 [http-nio-8067-exec-2] INFO  c.m.d.b.c.manage.LoginController 97 - --------------- userLogin() 方法执行异常 ---------------
+2020-09-18 16:33:09,406 [http-nio-8067-exec-2] ERROR c.m.d.s.e.GlobalExceptionHandler 24 - com.monetware.dispatchcenter.system.exception.ServiceException: 用户不存在
+2020-09-18 16:33:13,132 [http-nio-8067-exec-1] INFO  c.m.d.s.i.c.AuthenticationInterceptor 25 - =========Request Begin=========
+2020-09-18 16:33:13,133 [http-nio-8067-exec-1] INFO  c.m.d.b.c.manage.LoginController 87 - --------------- userLogin() 方法开始 ---------------
+2020-09-18 16:33:13,133 [http-nio-8067-exec-1] INFO  c.m.d.b.c.manage.LoginController 136 - 参数 param ：{"username":"admin","password":"123123123"}
+2020-09-18 16:33:13,212 [http-nio-8067-exec-1] INFO  c.m.dispatchcenter.system.aop.LogAop 154 - 返回json数据 : {"code":0,"message":"调用成功","data":{"username":"admin"},"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiNWQyN2FlNmY0MWFlNDZhMTljZmM4Mjc2OGNjMmE0YzIifQ.6dfVf_1-lC-l_9ivuAcFQMEQpPgFe4B5QKqOAh9iNi8"}
+2020-09-18 16:33:13,213 [http-nio-8067-exec-1] INFO  c.m.d.b.c.manage.LoginController 105 - --------------- userLogin() 方法结束 ---------------

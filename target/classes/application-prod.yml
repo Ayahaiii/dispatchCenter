@@ -1,0 +1,7 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://rm-uf6x8t115nb94hrak.mysql.rds.aliyuncs.com/ring-cloud-experiment?characterEncoding=utf-8&serverTimezone=GMT%2B8&allowMultiQueries=true&useSSL=false&autoReconnect=true
+    username: ringdata_web
+    password: ringdata2019@sh
+
